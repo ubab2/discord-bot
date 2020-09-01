@@ -1,5 +1,5 @@
 import discord
-
+import os
 client = discord.Client()
 
 
@@ -79,5 +79,5 @@ async def on_message(message):
     if message.content.startswith("!관짝"):
         await message.channel.send("https://www.youtube.com/watch?v=CAkLamTFDK4")
 
-
-client.run("NzEwMjgzMDExMTk4ODEyMTgx.Xryn5w.DuTCHQvibWM1DoLnKQbw40NxSEk")
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
