@@ -1,5 +1,5 @@
 import discord
-
+import os
 client = discord.Client()
 
 
@@ -40,4 +40,6 @@ async def on_message(message):
     if message.content.startswith("!국어"):
         await message.channel.send("https://hoc39.ebssw.kr/wongo1korean/hmpg/hmpgAlctcrDetailView.do?menuSn=385257&alctcrSn=176456")
 
-client.run("NzEwMzA3NjYyMjYwMDc2NTU0.Xrynpw.iF8i_rl4xNGp9TsFj6CPt2KAY60")
+        
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
