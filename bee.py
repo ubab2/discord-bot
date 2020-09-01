@@ -41,5 +41,5 @@ async def on_message(message):
         await message.channel.send("https://hoc39.ebssw.kr/wongo1korean/hmpg/hmpgAlctcrDetailView.do?menuSn=385257&alctcrSn=176456")
 
         
-access_token = os.environ["BOT_TOKEN"]
+access_token = os.environ["Bot_Token"]
 client.run(access_token)
