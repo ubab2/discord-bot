@@ -17,7 +17,7 @@ async def on_message(message):
     if message.content.startswith("월요일 시간표"):
         await message.channel.send("사회 영어(회화) 국어 화학 지구과학 실험 창체")
     if message.content.startswith("!월시"):
-        await message.channel.send("체사회 영어(회화) 국어 화학 지구과학 실험 창체")
+        await message.channel.send("사회 영어(회화) 국어 화학 지구과학 실험 창체")
 
     if message.content.startswith("!화요일 시간표"):
         await message.channel.send("수학 국어 한국사 체육 음악 정보 정보")
