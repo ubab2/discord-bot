@@ -15,9 +15,9 @@ async def on_ready():
 @client.event
 async def on_message(message):
     if message.content.startswith("월요일 시간표"):
-        await message.channel.send("사회 영어(회화) 국어 화학 지구과학 실험 창체")
+        await message.channel.send("사회 영어(회화) 국어 화학 지구과학 물리 창체")
     if message.content.startswith("!월시"):
-        await message.channel.send("사회 영어(회화) 국어 화학 지구과학 실험 창체")
+        await message.channel.send("사회 영어(회화) 국어 화학 지구과학 물리 창체")
 
     if message.content.startswith("!화요일 시간표"):
         await message.channel.send("수학 국어 한국사 체육 음악 정보 정보")
@@ -30,9 +30,9 @@ async def on_message(message):
         await message.channel.send("국어 영어 수학 사회 창체")
 
     if message.content.startswith("!목요일 시간표"):
-        await message.channel.send("물리 체욱 한국사 생물 음악 수학 영어")
+        await message.channel.send("실험 체욱 한국사 생물 음악 수학 영어")
     if message.content.startswith("!목시"):
-        await message.channel.send("물리 체욱 한국사 생물 음악 수학 영어")
+        await message.channel.send("실험 체욱 한국사 생물 음악 수학 영어")
 
     if message.content.startswith("!금요일 시간표"):
         await message.channel.send("정보 영어 진로 수학 국사 사회 국어")
